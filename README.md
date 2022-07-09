@@ -1,8 +1,8 @@
 ## you can create any recorde in MongoDb DataBase.
 ```
-$ http://localhost:3000/graphQl
+## http://localhost:3000/graphQl
 
-$ creating 
+## creating 
 mutation{
   createMatchData(creatematchInput:{
     matchId:"11"
@@ -16,7 +16,7 @@ mutation{
     teamName
   }
 
- $ feting data by id only
+ ## feting data by id only
 
  query{
   match(_id:"62c9172dafa8f7579110aaea"){
@@ -27,7 +27,7 @@ mutation{
   }
 }
 
-$ fetching all data 
+## fetching all data 
 
 query{
   matchs{
