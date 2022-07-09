@@ -1,4 +1,4 @@
-## you can create any recorde in MongoDb DataBase.
+## you can create any record in MongoDb DataBase.
 ```
 ## http://localhost:3000/graphQl
 
@@ -37,8 +37,9 @@ query{
     seriesName
   }
 }
+image.png
 ```
-
+![alt tag](http://url/to/img.png)
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
